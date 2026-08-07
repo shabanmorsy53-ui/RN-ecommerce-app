@@ -169,7 +169,7 @@ export default function Home() {
           <View style={{flexDirection:'row',justifyContent:"space-between",alignItems:'center',paddingHorizontal:5,paddingVertical:10}}>
             <Text style={{fontWeight:'bold', fontSize:15}}>Popular</Text>
 
-            <TouchableOpacity onPress={()=> router.push('/shop')}>
+            <TouchableOpacity onPress={()=> router.push('/Shop')}>
                 <Text style={{color:'blue'}}>See All</Text>
             </TouchableOpacity>
           </View>
